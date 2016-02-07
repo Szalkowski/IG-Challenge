@@ -1,0 +1,337 @@
+html, body
+{
+	width:100vw;
+	margin:0 auto;
+	padding:0;
+}
+/*edycja nagówka*/
+#header
+{
+	width:100vw;
+	height:106px;
+	margin:-16px 0 0 0;
+	padding:0;
+	background-image:url("../img/header.png");
+	background-size:100% 100%;
+	overflow:hidden;
+}
+#my
+{
+	list-style-type:none;
+	margin-left:421px;
+	padding-top:13px;
+	color:#939393;
+	font-family:"Noto Sans", sans-serif;
+	line-height:1em;
+	width:100px;
+}
+#my a{
+	text-decoration:none;
+	color:#939393;
+}
+#lang
+{
+	list-style-type:none;
+	margin-left:1170px;
+	margin-top:-93px;
+	display:block;
+	font-family:"Noto Sans", sans-serif;
+	font-size:13px;
+	text-align:center;
+}
+#lang li
+{
+	float:left;
+	background-color:black;
+	width:27px;
+	height:18px;
+	display:block;
+}
+#lang a
+{
+	text-decoration:none;
+	color:#939393;
+	display:block;
+	width:27px;
+	height:19px;
+	background-color:black;
+}
+#lang a:hover
+{
+	background-color:#939393;
+	color:black;
+}
+#lang a:active
+{
+	background-color:#939393;
+	color:black;
+}
+#lang a:visited
+{
+	background-color:#939393;
+	color:black;
+}
+#lang li
+{
+	display:block;
+	height:13px;
+}
+#linia1
+{
+	margin-left:115px;
+	margin-top:65px;
+	float:left;
+}
+#x
+{
+	float:left;
+	margin-top:38px;
+}
+/*zawartoœæ strony*/
+#all
+{
+	width:80vw;
+	margin:0 auto;
+}
+#igchall
+{
+	font-family:"News Cycle", sans-serif;
+	color:#9e2b66;
+	font-size:50px;
+}
+#pomysl
+{
+	font-family:"Noto Sans", sans-serif;
+	font-size:25px;
+	color:black;
+	margin-right:115px;
+}
+#linia2
+{
+	margin:0 0 0 -10px;
+	padding:0;
+	width:1064px;
+}
+#lista1
+{
+	margin-top:36px;
+}
+.lista
+{
+	float:left;
+	width:532px;
+}
+.jesli
+{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+.jesli li
+{
+	display:block;
+	background-image:url("../img/bull.png");
+	background-repeat:no-repeat;
+	padding-left:15px;
+	background-position:2px 6px;
+	line-height:20px;
+	font-family:"Noto Sans", sans-serif;
+	font-size:13px;
+}
+#czeka
+{
+	display:block;
+	width:532px;
+	float:left;
+}
+#lista2
+{
+	margin-top:47px;
+}
+#linia3
+{
+	margin:38px 0 0 -10px;
+	padding:0;
+	width:1064px;
+}
+.info
+{
+	font-family:"Noto Sans", sans-serif;
+	font-size:13px;	
+}
+#kody
+{
+	color:#9e2b66;
+	font-size:48px;
+	font-family:"News Cycle", sans-serif;
+	margin-top:30px;
+}
+#komputer
+{
+	margin-left:173px;
+	margin-top:53px;
+	float:left;
+}
+#pobierz
+{
+	margin-top:200px;
+	margin-left:-58px;
+}
+/*formularz zg³oszeniowy*/
+#formularz
+{
+	clear:both;
+	height:433px;
+	width:1064px;
+	background-color:#efefef;
+	display:block;
+	margin-top:44px;
+}
+.tytul
+{
+	float:left;
+ 	font-family:"Noto Sans", sans-serif;
+	padding-left:51px;
+	font-size:13px;
+}
+#formul
+{
+	width:532px;
+	margin-top::33px;
+}
+#formula
+{
+	margin-left:51px;
+	padding-top:60px;
+	font-family:"Noto Sans", sans-serif;
+	font-size:25px;
+}
+#kierunek
+{
+	width:273px;
+}
+#rok
+{
+	margin-left:41px;
+	float:left;
+	margin-top:20px;
+	font-family:"Noto Sans", sans-serif;
+	font-size:13px;
+}
+#inrok
+{
+	width:137px;
+}
+.tytul2
+{
+	margin-top:20px;
+	float:left;
+	font-family:"Noto Sans", sans-serif;
+	margin-left:51px;
+	font-size:13px;
+}
+.pole
+{
+	height:34px;
+	width:201px;
+}
+#check
+{
+	margin-top:15px;
+	clear:both;
+	margin-left:51px;
+	font-family:"Noto Sans", sans-serif;
+	font-size:13px;
+}
+#butt
+{
+	float:right;
+	background-image:url("../img/button.png");
+	margin-top:-70px;
+	margin-right:40px;
+	font-family:"Noto Sans", sans-serif;
+	color:white;
+	font-size:24px;
+	padding:10px;
+}
+/*stopka*/
+#footer
+{
+	margin:25px 0 0 0;
+	padding:0;
+	width:100vw;
+	background-image:url("../img/footer.png");
+	background-size:100% 100%;
+	height:73px;
+}
+#stopka
+{
+	color:#939393;
+	font-family:"Noto Sans", sans-serif;
+	font-size:13px;
+	list-style-type:none;
+	float:left;
+	margin:0 auto;
+	width:70vw;
+	line-height:22px;
+}
+#stopka li
+{
+	float:left;
+	height:20px;
+}
+#ig
+{
+	margin-top:29px;
+	letter-spacing:0.5px;
+	padding-right:30px;
+}
+.down
+{
+	display:block;
+	border-left:1px #939393 solid;
+	padding-right:30px;
+	letter-spacing:0.8px;
+	margin-top:30px;
+}
+.down img
+{
+	padding-left:28px;
+	padding-right:7px;
+}
+#face a
+{
+	text-decoration:none;
+	color:#939393;
+	font-family:"Noto Sans", sans-serif;
+	font-size:13px;
+}
+#face img{
+
+	padding-right:10px;
+}
+#face{
+
+height:23px;
+}
+.tekst{
+	vertical-align:top;
+}
+#dolacz{
+	margin-top:-20px;
+	margin-left:50px;
+	color:#939393;
+	font-family:"Noto Sans", sans-serif;
+	font-size:13px;
+	
+}
+#copyrights
+{
+	float:left;
+	color:#939393;
+	font-family:"Noto Sans", sans-serif;
+	font-size:13px;
+	margin-top:30px;
+	margin-left:70px;
+	letter-spacing:0.7px;
+}

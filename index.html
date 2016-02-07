@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pl">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+		<meta name="keywords" content="projekt, infintity" />
+		<meta name="description" content="projekt na zaliczenie htmla" />
+		<meta name="author" content="Maciej Szałkowski" />
+		<meta name="robots" content="noindex, nofollow" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Projekt</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="screen, projection" />
+		<link href='https://fonts.googleapis.com/css?family=News+Cycle' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Noto+Sans:400,700' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<!-- nagłowek w którym zamieszczone jest menu oraz wersje językowe -->	
+		<div id="header">
+			<ul id="my">
+				<li><a href="onas.html">o nas</a></li>
+				<li><a href="robimy.html">co robimy</a></li>
+				<li><a href="realizacje.html">realizacje</a></li>
+				<li><a href="kontakt.html">kontakt</a></li>
+			</ul>
+			<ul id="lang">
+				<li><a href="index.html">PL</a></li>
+				<li><a href="index2.html">EN</a></li>
+				<li><a href="index3.html">IT</a></li>
+			</ul>
+		</div>
+		<img id="linia1" src="img/linia1.png" alt="linia" />
+		<img id="x" src="img/x.png" alt="szary x" />
+		
+		<!-- Główna zawartość strony -->
+		<div id="all">
+			<p id="igchall">IG Challenge</p>
+			<p id="pomysl">Masz już pomysł na wakacje? W Infinity Group czeka na Ciebie 3-tygodniowy staż w dziale Web Development!</p>
+			<img id="linia2" src="img/linia1.png" alt="linia" />
+			<div id="lista1" class="lista">
+				<!-- Cele użytkownika -->
+				<p class="nag">Jeśli chcesz:</p>
+				<p>
+					<ul class="jesli">
+						<li>rozwijać się w kierunku front-end</li>
+						<li>doskonalić swoje umiejętności z zakresu html5, javascript, CSS3</li>
+						<li>zgłębić tajniki Responsive Web Design</li>
+					</ul>
+				</p>
+			</div>
+			<!-- Oferta firmy -->
+			<div id="lista2" class="lista">		
+				<p>Co na Ciebie czeka?</p>
+				<p>
+					<ul class="jesli">
+						<li>w pełni wyposażone stanowisko komputerowe</li>
+						<li>opieka mentora</li>
+						<li>doświadczenie przy prawdziwych projektach dla klientów agencji.</li>
+					</ul>
+				</p>
+			</div>
+			<!-- Instrukcja dla chętnych odbycia stażu -->
+			<div id="czeka">
+				<p>Zgłoś się!</p>
+				<p class="info">Podczas stażu w Infinity Group zdobędziesz praktyczne umiejętności, poznasz realia pracy przy dużych projektach, staniesz się częścią zespołu złożonego z </br> doświadczonych specjalistów.</p>
+			</div>
+			<div id="lista3" class="lista">
+				<p>Co zrobić by wziąć udział w stażu?</p>
+				<ul class="jesli">
+					<li>Wypełnij formularz kontaktowy</li>
+					<li>Rozwiąż zadanie, do którego dostęp otrzymasz drogą mailową</li>
+					<li>Twórców najlepszych rozwiązań zaprosimy na rozmowę i wybierzemy najlepszą dwójkę chętnych!</li>
+				</ul>
+			</div>
+			<img id="linia3" src="img/linia1.png" alt="linia" />
+			<p id="kody">Podejmij IG Challenge - Wypuść pierwsze kody za płoty!</p>
+			<p class="info">Pobierz materiały i dowiedz się na czym polega zadanie. Na zgłoszenia czekamy do...... .</p>
+			<!-- Obrazek komputera wraz z ikoną pobierania materiałów -->
+			<img id="komputer" src="img/createdby.png" alt="obraz komputera" height="542px"/>
+			<img id="pobierz" src="img/pobierz.png" alt="ikonka pobierania" />
+			<!-- Formularz zgłoszeniowy -->
+			<div id="formularz">
+				<p id="formula">Formularz zgłoszeniowy:</p>
+				<div id="formul">
+					<form method="get" action="">
+						<p class="tytul">Imię:</br>
+						<input class="pole" name="imie" /></p>
+						<p class="tytul">Nazwisko:</br>
+						<input class="pole" name="nazwisko" /></p>
+						<p class="tytul">Adres e-mail:</br>
+						<input class="pole" name="email" /></p>
+						<p class="tytul">Telefon kontaktowy:</br>
+						<input class="pole" name="telefon" /></p>
+						<p class="tytul2">Kierunek studiów:</br>
+						<input class="pole" id="kierunek" name="kierunek" /></p>
+						<p id="rok">Rok studiów:</br>
+						<input class="pole" id="inrok" name="rok"/></p>
+						<p id="check"><input type="checkbox" name="zgoda" value="yes" />Wyrażam zgodę na przetważanie moich danych osobowych <a href="">cała treść</a></p>
+				</div>
+				<input id="butt" type="submit" value="Wyślij zgłoszenie" />
+					</form>
+			</div>	
+		</div>
+		<!-- Stopka strony w której zawarte są dane kontaktowe -->
+		<div id="footer">
+			<ul id="stopka">
+				<li id="ig"><b>Infinity Group. </b>Ready to deliver.</li>
+				<li class="down"><img src="img/phone.png" alt="ikona telefonu" /><b><span class="tekst">+48.85.652.09.20</span></b></li>
+				<li class="down"><img src="img/mail.png" alt="ikona koperty" /><b><span class="tekst">biuro@infinity-group.pl</span></b></li>
+				<li id="face" class="down"><a href="https://www.facebook.com/InfinityG"><img src="img/fb.png" alt="ikona facebooka" /><p id="dolacz"><b>dołącz do nas</b></p></a></li>
+			</ul>
+		<p id="copyrights"><b>&#169;2014 Infinity Group</b></p>
+		</div>
+	</body>
+	
